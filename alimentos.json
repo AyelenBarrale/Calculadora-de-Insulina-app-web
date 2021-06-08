@@ -1,0 +1,1426 @@
+[
+    {
+        "id": 1,
+        "nombre": "anana",
+        "categoria": "fruta fresta",
+        "porcion": "2 rodajas finas",
+        "carb": 15
+    },
+    {
+        "id": 2,
+        "nombre": "banana",
+        "categoria": "fruta fresta",
+        "porcion": "1 unidad chica",
+        "carb": 15
+    },
+    {
+        "id": 3,
+        "nombre": "cerezas",
+        "categoria": "fruta fresta",
+        "porcion": "20 unidades",
+        "carb": 15
+    },
+    {
+        "id": 4,
+        "nombre": "ciruelas",
+        "categoria": "fruta fresta",
+        "porcion": "2 unidades medianas",
+        "carb": 15
+    },
+    {
+        "id": 5,
+        "nombre": "damascos",
+        "categoria": "fruta fresta",
+        "porcion": "3 unidad grandes",
+        "carb": 15
+    },
+    {
+        "id": 6,
+        "nombre": "duraznos",
+        "categoria": "fruta fresta",
+        "porcion": "1 unidad mediana",
+        "carb": 15
+    },
+    {
+        "id": 7,
+        "nombre": "frutillas",
+        "categoria": "fruta fresta",
+        "porcion": "1 taza",
+        "carb": 15
+    },
+    {
+        "id": 8,
+        "nombre": "granada",
+        "categoria": "fruta fresta",
+        "porcion": "1/2 taza",
+        "carb": 15
+    },
+    {
+        "id": 9,
+        "nombre": "melon",
+        "categoria": "fruta fresta",
+        "porcion": "1 rodaja",
+        "carb": 15
+    },
+    {
+        "id": 10,
+        "nombre": "mandarina",
+        "categoria": "fruta fresta",
+        "porcion": "1 unidad grande",
+        "carb": 15
+    },
+    {
+        "id": 11,
+        "nombre": "mango",
+        "categoria": "fruta fresta",
+        "porcion": "1 unidad chica",
+        "carb": 30
+    },
+    {
+        "id": 12,
+        "nombre": "manzana",
+        "categoria": "fruta fresta",
+        "porcion": "1 unidad chica",
+        "carb": 15
+    },
+    {
+        "id": 13,
+        "nombre": "arandanos",
+        "categoria": "fruta fresta",
+        "porcion": "1/2 taza",
+        "carb": 15
+    },
+    {
+        "id": 14,
+        "nombre": "naranja",
+        "categoria": "fruta fresta",
+        "porcion": "1 unidad mediana",
+        "carb": 15
+    },
+    {
+        "id": 16,
+        "nombre": "pera",
+        "categoria": "fruta fresta",
+        "porcion": "1 unidad chica",
+        "carb": 15
+    },
+    {
+        "id": 17,
+        "nombre": "pomelo",
+        "categoria": "fruta fresta",
+        "porcion": "1 unidad chica",
+        "carb": 15,
+        "unidad": 0
+    },
+    {
+        "id": 18,
+        "nombre": "sandia",
+        "categoria": "fruta fresta",
+        "porcion": "2 compoteras",
+        "carb": 15,
+        "unidad": 0
+    },
+    {
+        "id": 19,
+        "nombre": "uvas",
+        "categoria": "fruta fresta",
+        "porcion": "12 unidades chicas",
+        "carb": 15
+    },
+    {
+        "id": 20,
+        "nombre": "kiwi",
+        "categoria": "fruta fresta",
+        "porcion": "2 unidades chicas",
+        "carb": 15,
+        "unidad": 0
+    },
+    {
+        "id": 21,
+        "nombre": "higos",
+        "categoria": "fruta fresta",
+        "porcion": "2 unidades chicas",
+        "carb": 15,
+        "unidad": 0
+    },
+    {
+        "id": 22,
+        "nombre": "kinotos",
+        "categoria": "fruta fresta",
+        "porcion": "10 unidades",
+        "carb": 15
+    },
+    {
+        "id": 23,
+        "nombre": "frambuesas",
+        "categoria": "fruta fresta",
+        "porcion": "1/2 taza",
+        "carb": 15
+    },
+    {
+        "id": 24,
+        "nombre": "ciruela",
+        "categoria": "fruta desecada",
+        "porcion": "3 unidades",
+        "carb": 15
+    },
+    {
+        "id": 25,
+        "nombre": "damasco",
+        "categoria": "fruta desecada",
+        "porcion": "3 unidades",
+        "carb": 15
+    },
+    {
+        "id": 26,
+        "nombre": "higos secos",
+        "categoria": "fruta desecada",
+        "porcion": "2 unidades",
+        "carb": 15
+    },
+    {
+        "id": 27,
+        "nombre": "durazno",
+        "categoria": "fruta desecada",
+        "porcion": "1 unidad",
+        "carb": 15
+    },
+    {
+        "id": 28,
+        "nombre": "pera",
+        "categoria": "fruta desecada",
+        "porcion": "1 unidad",
+        "carb": 15
+    },
+    {
+        "id": 29,
+        "nombre": "manzana",
+        "categoria": "fruta desecada",
+        "porcion": "1 unidad",
+        "carb": 15
+    },
+    {
+        "id": 30,
+        "nombre": "pasas de uva",
+        "categoria": "fruta desecada",
+        "porcion": "1 pocillo",
+        "carb": 15
+    },
+    {
+        "id": 31,
+        "nombre": "frutas secas",
+        "categoria": "fruta desecada",
+        "porcion": "1 pocillo",
+        "carb": 15
+    },
+    {
+        "id": 32,
+        "nombre": "castañas dde cajú",
+        "categoria": "fruta desecada",
+        "porcion": "1/2 pocillo",
+        "carb": 15
+    },
+    {
+        "id": 33,
+        "nombre": "pure de manzana",
+        "categoria": "fruta en conserva o enlatada",
+        "porcion": "1/2 taza de te",
+        "carb": 15
+    },
+    {
+        "id": 34,
+        "nombre": "anana en lata dietético",
+        "categoria": "fruta en conserva o enlatada",
+        "porcion": "2 rodajas",
+        "carb": 15
+    },
+    {
+        "id": 35,
+        "nombre": "duraznos en lata dietéticos",
+        "categoria": "fruta en conserva o enlatada",
+        "porcion": "2 mitades",
+        "carb": 15
+    },
+    {
+        "id": 36,
+        "nombre": "papa",
+        "categoria": "vegetales",
+        "porcion": "1 unidad chica",
+        "carb": 15
+    },
+    {
+        "id": 37,
+        "nombre": "choclo en grano",
+        "categoria": "vegetales",
+        "porcion": "1/2 lata",
+        "carb": 15
+    },
+    {
+        "id": 38,
+        "nombre": "choclo entero",
+        "categoria": "vegetales",
+        "porcion": "1/2 unidad",
+        "carb": 15
+    },
+    {
+        "id": 39,
+        "nombre": "madioca",
+        "categoria": "vegetales",
+        "porcion": "1/2 unidad chica",
+        "carb": 30
+    },
+    {
+        "id": 40,
+        "nombre": "batata",
+        "categoria": "vegetales",
+        "porcion": "1/2 unidad chica",
+        "carb": 30
+    },
+    {
+        "id": 41,
+        "nombre": "pure de batata",
+        "categoria": "vegetales",
+        "porcion": "1/2 taza",
+        "carb": 30
+    },
+    {
+        "id": 42,
+        "nombre": "pure de papa",
+        "categoria": "vegetales",
+        "porcion": "1/2 taza",
+        "carb": 15
+    },
+    {
+        "id": 43,
+        "nombre": "pure de papa instantaneo",
+        "categoria": "vegetales",
+        "porcion": "2 cucharadas soperas",
+        "carb": 15
+    },
+    {
+        "id": 44,
+        "nombre": "calabaza",
+        "categoria": "vegetales",
+        "porcion": "2 rodajas",
+        "carb": 15
+    },
+    {
+        "id": 45,
+        "nombre": "zapallo",
+        "categoria": "vegetales",
+        "porcion": "2 rodajas",
+        "carb": 15
+    },
+    {
+        "id": 46,
+        "nombre": "palta",
+        "categoria": "vegetales",
+        "porcion": "1 unidad mediana",
+        "carb": 15
+    },
+    {
+        "id": 47,
+        "nombre": "remolacha",
+        "categoria": "vegetales",
+        "porcion": "1 unidad grande",
+        "carb": 15
+    },
+    {
+        "id": 48,
+        "nombre": "zanahoria",
+        "categoria": "vegetales",
+        "porcion": "1 unidad grande",
+        "carb": 15
+    },
+    {
+        "id": 49,
+        "nombre": "avena",
+        "categoria": "cereales y pastas",
+        "porcion": "1/2 taza",
+        "carb": 15
+    },
+    {
+        "id": 50,
+        "nombre": "almodon de maiz",
+        "categoria": "cereales y pastas",
+        "porcion": "1 cucharada sopera",
+        "carb": 15
+    },
+    {
+        "id": 51,
+        "nombre": "arroz blanco cocido",
+        "categoria": "cereales y pastas",
+        "porcion": "1 taza",
+        "carb": 45
+    },
+    {
+        "id": 52,
+        "nombre": "arroz integral cocido",
+        "categoria": "cereales y pastas",
+        "porcion": "1 taza",
+        "carb": 45
+    },
+    {
+        "id": 53,
+        "nombre": "canelones",
+        "categoria": "cereales y pastas",
+        "porcion": "1 unidad grande",
+        "carb": 15
+    },
+    {
+        "id": 54,
+        "nombre": "harina",
+        "categoria": "cereales y pastas",
+        "porcion": "2 cucharadas soperas",
+        "carb": 15
+    },
+    {
+        "id": 55,
+        "nombre": "masa de panqueque",
+        "categoria": "cereales y pastas",
+        "porcion": "2 unidades",
+        "carb": 15
+    },
+    {
+        "id": 56,
+        "nombre": "ñoquis",
+        "categoria": "cereales y pastas",
+        "porcion": "12 unidades",
+        "carb": 15
+    },
+    {
+        "id": 57,
+        "nombre": "pasta cocida",
+        "categoria": "cereales y pastas",
+        "porcion": "1/2 plato playo",
+        "carb": 30
+    },
+    {
+        "id": 58,
+        "nombre": "pasta cocida",
+        "categoria": "cereales y pastas",
+        "porcion": "1 plato hondo",
+        "carb": 75
+    },
+    {
+        "id": 59,
+        "nombre": "ravioles",
+        "categoria": "cereales y pastas",
+        "porcion": "20 unidades",
+        "carb": 30
+    },
+    {
+        "id": 60,
+        "nombre": "capelettini de jamón y queso",
+        "categoria": "cereales y pastas",
+        "porcion": "3/4 taza",
+        "carb": 40
+    },
+    {
+        "id": 61,
+        "nombre": "lamina de lasagna",
+        "categoria": "cereales y pastas",
+        "porcion": "3 lamnas",
+        "carb": 30
+    },
+    {
+        "id": 62,
+        "nombre": "lentejas cocidas",
+        "categoria": "legumbres",
+        "porcion": "1/2 taza",
+        "carb": 30
+    },
+    {
+        "id": 63,
+        "nombre": "porotos cocidos",
+        "categoria": "legumbres",
+        "porcion": "1/2 taza",
+        "carb": 30
+    },
+    {
+        "id": 64,
+        "nombre": "garbanzos cocidos",
+        "categoria": "legumbres",
+        "porcion": "1/2 taza",
+        "carb": 30
+    },{
+        "id": 65,
+        "nombre": "arvejas cocidas",
+        "categoria": "legumbres",
+        "porcion": "1/2 taza",
+        "carb": 30
+    },
+    {
+        "id": 66,
+        "nombre": "soja cocida",
+        "categoria": "legumbres",
+        "porcion": "1 taza",
+        "carb": 15
+    },
+    {
+        "id": 67,
+        "nombre": "milanesa de soja",
+        "categoria": "legumbres",
+        "porcion": "1 unidad chica",
+        "carb": 15
+    },
+    {
+        "id": 68,
+        "nombre": "habas cocidas",
+        "categoria": "legumbres",
+        "porcion": "1/2 taza",
+        "carb": 30
+    },
+    {
+        "id": 69,
+        "nombre": "pan pebete",
+        "categoria": "panes",
+        "porcion": "1 unidad",
+        "carb": 30
+    },
+    {
+        "id": 70,
+        "nombre": "pan rallado",
+        "categoria": "panes",
+        "porcion": "1 cucharada sopera",
+        "carb": 15
+    },
+    {
+        "id": 71,
+        "nombre": "pan de molde blanco",
+        "categoria": "panes",
+        "porcion": "1 rebanada",
+        "carb": 15
+    },
+    {
+        "id": 72,
+        "nombre": "pan de molde integral",
+        "categoria": "panes",
+        "porcion": "1 rebanada",
+        "carb": 15
+    },
+    {
+        "id": 73,
+        "nombre": "pan de hamburguesa",
+        "categoria": "panes",
+        "porcion": "1 unidad",
+        "carb": 30
+    },
+    {
+        "id": 74,
+        "nombre": "pan arabe",
+        "categoria": "panes",
+        "porcion": "1 unidad grande",
+        "carb": 30
+    },
+    {
+        "id": 75,
+        "nombre": "pan frances",
+        "categoria": "panes",
+        "porcion": "1 bollo chico",
+        "carb": 15
+    },
+    {
+        "id": 76,
+        "nombre": "pan frances en rodaja",
+        "categoria": "panes",
+        "porcion": "2 unidades",
+        "carb": 15
+    },
+    {
+        "id": 77,
+        "nombre": "sandwich de miga",
+        "categoria": "panes",
+        "porcion": "1 triangulo",
+        "carb": 15
+    },
+    {
+        "id": 78,
+        "nombre": "tortilla de maiz",
+        "categoria": "panes",
+        "porcion": "1 unidad",
+        "carb": 15
+    },
+    {
+        "id": 79,
+        "nombre": "pan de salvado",
+        "categoria": "panes",
+        "porcion": "1 bollo chico",
+        "carb": 15
+    },
+    {
+        "id": 80,
+        "nombre": "pan de pancho",
+        "categoria": "panes",
+        "porcion": "1 unidad",
+        "carb": 30
+    },
+    {
+        "id": 81,
+        "nombre": "pan de fajita",
+        "categoria": "panes",
+        "porcion": "1 unidad",
+        "carb": 20
+    },
+    {
+        "id": 82,
+        "nombre": "tapa de empanadas",
+        "categoria": "alimentos salados",
+        "porcion": "1 unidad",
+        "carb": 15
+    },
+    {
+        "id": 83,
+        "nombre": "snacks salados",
+        "categoria": "alimentos salados",
+        "porcion": "3 unidades",
+        "carb": 15
+    },
+    {
+        "id": 84,
+        "nombre": "papas fritas",
+        "categoria": "alimentos salados",
+        "porcion": "1 paquete chico",
+        "carb": 30
+    },
+    {
+        "id": 85,
+        "nombre": "chicitos",
+        "categoria": "alimentos salados",
+        "porcion": "1 paquete chico",
+        "carb": 30
+    },
+    {
+        "id": 86,
+        "nombre": "palito salados",
+        "categoria": "alimentos salados",
+        "porcion": "1 paquete chico",
+        "carb": 30
+    },
+    {
+        "id": 87,
+        "nombre": "pizza a la piedra",
+        "categoria": "alimentos salados",
+        "porcion": "1/8 de unidad grande",
+        "carb": 15
+    },
+    {
+        "id": 88,
+        "nombre": "masa de tarta",
+        "categoria": "alimentos salados",
+        "porcion": "1 unidad",
+        "carb": 15
+    },
+    {
+        "id": 89,
+        "nombre": "galletitas con cereales",
+        "categoria": "galletitas",
+        "porcion": "3 unidades",
+        "carb": 15
+    },
+    {
+        "id": 90,
+        "nombre": "galleta marinera",
+        "categoria": "galletitas",
+        "porcion": "1 unidad grande",
+        "carb": 15
+    },
+    {
+        "id": 91,
+        "nombre": "galletitas de agua grandes",
+        "categoria": "galletitas",
+        "porcion": "2 - 3 unidades",
+        "carb": 15
+    },
+    {
+        "id": 92,
+        "nombre": "galletitas de agua chicas",
+        "categoria": "galletitas",
+        "porcion": "5 unidades",
+        "carb": 15
+    },
+    {
+        "id": 93,
+        "nombre": "bizcochitos de grasa",
+        "categoria": "galletitas",
+        "porcion": "3 unidades",
+        "carb": 15
+    },
+    {
+        "id": 94,
+        "nombre": "galletas de arroz redondas",
+        "categoria": "galletitas",
+        "porcion": "2 unidades",
+        "carb": 15
+    },
+    {
+        "id": 95,
+        "nombre": "galletas de arroz cuadradas chicas",
+        "categoria": "galletitas",
+        "porcion": "4 unidades",
+        "carb": 15
+    },
+    {
+        "id": 96,
+        "nombre": "galletas de maiz",
+        "categoria": "galletitas",
+        "porcion": "3 unidades",
+        "carb": 15
+    },
+    {
+        "id": 97,
+        "nombre": "grisines",
+        "categoria": "galletitas",
+        "porcion": "5 unidades",
+        "carb": 15
+    },
+    {
+        "id": 98,
+        "nombre": "talitas",
+        "categoria": "galletitas",
+        "porcion": "5 unidades",
+        "carb": 15
+    },
+    {
+        "id": 99,
+        "nombre": "mini tostadas",
+        "categoria": "galletitas",
+        "porcion": "5 unidades",
+        "carb": 15
+    },
+    {
+        "id": 100,
+        "nombre": "galletitas tipo bizcochitos",
+        "categoria": "galletitas",
+        "porcion": "6 unidades chicas",
+        "carb": 15
+    },
+    {
+        "id": 101,
+        "nombre": "barra de cereal",
+        "categoria": "otros cereales",
+        "porcion": "1 unidad",
+        "carb": 15
+    },
+    {
+        "id": 102,
+        "nombre": "copos azucarados",
+        "categoria": "otros cereales",
+        "porcion": "1/4 taza",
+        "carb": 15
+    },
+    {
+        "id": 103,
+        "nombre": "copos de maiz",
+        "categoria": "otros cereales",
+        "porcion": "1/2 taza",
+        "carb": 15
+    },
+    {
+        "id": 104,
+        "nombre": "granola",
+        "categoria": "otros cereales",
+        "porcion": "1/4 taza",
+        "carb": 15
+    },
+    {
+        "id": 105,
+        "nombre": "pochoclo con azucar",
+        "categoria": "otros cereales",
+        "porcion": "2 tazas",
+        "carb": 15
+    },
+    {
+        "id": 106,
+        "nombre": "pochoclo sin azucar",
+        "categoria": "otros cereales",
+        "porcion": "3 tazas",
+        "carb": 15
+    },
+    {
+        "id": 107,
+        "nombre": "almohaditas de avena",
+        "categoria": "otros cereales",
+        "porcion": "1/4 taza",
+        "carb": 15
+    },
+    {
+        "id": 108,
+        "nombre": "salvado de avena",
+        "categoria": "otros cereales",
+        "porcion": "3 cucharadas soperas",
+        "carb": 15
+    },
+    {
+        "id": 109,
+        "nombre": "alimento a base de avena, frutas deshidratadas y frutas secas",
+        "categoria": "otros cereales",
+        "porcion": "1/4 taza",
+        "carb": 30
+    },
+    {
+        "id": 110,
+        "nombre": "biscuit",
+        "categoria": "galletitas y otros dulces",
+        "porcion": "1 unidad",
+        "carb": 15
+    },
+    {
+        "id": 111,
+        "nombre": "galletita rellena",
+        "categoria": "galletitas y otros dulces",
+        "porcion": "1 unidad",
+        "carb": 15
+    },
+    {
+        "id": 112,
+        "nombre": "galleta simple",
+        "categoria": "galletitas y otros dulces",
+        "porcion": "3 unidades",
+        "carb": 15
+    },
+    {
+        "id": 113,
+        "nombre": "vainilla",
+        "categoria": "galletitas y otros dulces",
+        "porcion": "1 unidad",
+        "carb": 15
+    },
+    {
+        "id": 114,
+        "nombre": "magdalena",
+        "categoria": "galletitas y otros dulces",
+        "porcion": "1 unidad",
+        "carb": 15
+    },
+    {
+        "id": 115,
+        "nombre": "obleas simples",
+        "categoria": "galletitas y otros dulces",
+        "porcion": "4 unidades",
+        "carb": 15
+    },
+    {
+        "id": 116,
+        "nombre": "muffin",
+        "categoria": "galletitas y otros dulces",
+        "porcion": "1 unidad",
+        "carb": 30
+    },
+    {
+        "id": 117,
+        "nombre": "budin de chocolate",
+        "categoria": "galletitas y otros dulces",
+        "porcion": "1 rebanada",
+        "carb": 30
+    },
+    {
+        "id": 118,
+        "nombre": "budin de vainilla",
+        "categoria": "galletitas y otros dulces",
+        "porcion": "1 rebanada",
+        "carb": 15
+    },
+    {
+        "id": 119,
+        "nombre": "budin de limón",
+        "categoria": "galletitas y otros dulces",
+        "porcion": "1 rebanada",
+        "carb": 15
+    },
+    {
+        "id": 119,
+        "nombre": "factura con dulce",
+        "categoria": "galletitas y otros dulces",
+        "porcion": "1 unidad",
+        "carb": 30
+    },
+    {
+        "id": 120,
+        "nombre": "medialuna",
+        "categoria": "galletitas y otros dulces",
+        "porcion": "1 unidad",
+        "carb": 30
+    },
+    {
+        "id": 121,
+        "nombre": "pan dulce",
+        "categoria": "galletitas y otros dulces",
+        "porcion": "1 rebanada chica",
+        "carb": 30
+    },
+    {
+        "id": 122,
+        "nombre": "scones",
+        "categoria": "galletitas y otros dulces",
+        "porcion": "1 unidad",
+        "carb": 15
+    },
+    {
+        "id": 123,
+        "nombre": "tarta de frutas",
+        "categoria": "galletitas y otros dulces",
+        "porcion": "1/8 de unidad grande",
+        "carb": 30
+    },
+    {
+        "id": 124,
+        "nombre": "palmerita",
+        "categoria": "galletitas y otros dulces",
+        "porcion": "1 unidad",
+        "carb": 15
+    },
+    {
+        "id": 125,
+        "nombre": "bizcochuelo",
+        "categoria": "galletitas y otros dulces",
+        "porcion": "1 porcion",
+        "carb": 15
+    },
+    {
+        "id": 126,
+        "nombre": "galletitas dulces dieteticas",
+        "categoria": "galletitas y otros dulces",
+        "porcion": "4 unidades",
+        "carb": 15
+    },
+    {
+        "id": 127,
+        "nombre": "galletas dulces de avena",
+        "categoria": "galletitas y otros dulces",
+        "porcion": "4 unidades",
+        "carb": 15
+    },
+    {
+        "id": 128,
+        "nombre": "churros",
+        "categoria": "galletitas y otros dulces",
+        "porcion": "1 unidad",
+        "carb": 30
+    },
+    {
+        "id": 129,
+        "nombre": "pionono de dulce de leche",
+        "categoria": "galletitas y otros dulces",
+        "porcion": "1 rebanada fina",
+        "carb": 15
+    },
+    {
+        "id": 130,
+        "nombre": "leche fermentada",
+        "categoria": "lacteos y derivados",
+        "porcion": "100 cc",
+        "carb": 15
+    },
+    {
+        "id": 131,
+        "nombre": "leche fermentada dietetica",
+        "categoria": "lacteos y derivados",
+        "porcion": "100 cc",
+        "carb": 8
+    },
+    {
+        "id": 132,
+        "nombre": "leche entera",
+        "categoria": "lacteos y derivados",
+        "porcion": "1 taza",
+        "carb": 15
+    },
+    {
+        "id": 133,
+        "nombre": "leche descremada",
+        "categoria": "lacteos y derivados",
+        "porcion": "1 taza",
+        "carb": 15
+    },
+    {
+        "id": 134,
+        "nombre": "yogur bebible dietetico",
+        "categoria": "lacteos y derivados",
+        "porcion": "200 cc",
+        "carb": 15
+    },
+    {
+        "id": 135,
+        "nombre": "yogur bebible entero",
+        "categoria": "lacteos y derivados",
+        "porcion": "200 cc",
+        "carb": 30
+    },
+    {
+        "id": 136,
+        "nombre": "yogur dietetico batido",
+        "categoria": "lacteos y derivados",
+        "porcion": "1 unidad",
+        "carb": 10
+    },
+    {
+        "id": 137,
+        "nombre": "flan dietetico",
+        "categoria": "lacteos y derivados",
+        "porcion": "150 gr",
+        "carb": 15
+    },
+    {
+        "id": 138,
+        "nombre": "postre dietetico",
+        "categoria": "lacteos y derivados",
+        "porcion": "150 gr",
+        "carb": 15
+    },
+    {
+        "id": 139,
+        "nombre": "postre lacteo simple",
+        "categoria": "lacteos y derivados",
+        "porcion": "120 gr",
+        "carb": 25
+    },
+    {
+        "id": 140,
+        "nombre": "yogur dietetico con granola",
+        "categoria": "lacteos y derivados",
+        "porcion": "170 gr",
+        "carb": 25
+    },
+    {
+        "id": 141,
+        "nombre": "yogur dietetico con cereales",
+        "categoria": "lacteos y derivados",
+        "porcion": "170 gr",
+        "carb": 25
+    },
+    {
+        "id": 142,
+        "nombre": "yogur entero con cereales azucarados",
+        "categoria": "lacteos y derivados",
+        "porcion": "170 gr",
+        "carb": 45
+    },
+    {
+        "id": 143,
+        "nombre": "flan infantil",
+        "categoria": "lacteos y derivados",
+        "porcion": "1 unidad",
+        "carb": 25
+    },
+    {
+        "id": 144,
+        "nombre": "leche chocolatada envasada",
+        "categoria": "lacteos y derivados",
+        "porcion": "1 vaso",
+        "carb": 30
+    },
+    {
+        "id": 145,
+        "nombre": "leche chocolatada preparada",
+        "categoria": "lacteos y derivados",
+        "porcion": "1 vaso",
+        "carb": 15
+    },
+    {
+        "id": 146,
+        "nombre": "yogur dietetico con colchon de frutas",
+        "categoria": "lacteos y derivados",
+        "porcion": "1 pote",
+        "carb": 20
+    },
+    {
+        "id": 147,
+        "nombre": "yogur griego",
+        "categoria": "lacteos y derivados",
+        "porcion": "100 gr",
+        "carb": 15
+    },
+    {
+        "id": 147,
+        "nombre": "yogur con frutas y cereales",
+        "categoria": "lacteos y derivados",
+        "porcion": "1 vaso",
+        "carb": 25
+    },
+    {
+        "id": 148,
+        "nombre": "azucar",
+        "categoria": "azucar, dulces y golosinas",
+        "porcion": "3 cucharadas te",
+        "carb": 15
+    },
+    {
+        "id": 149,
+        "nombre": "dulce compacto comun",
+        "categoria": "azucar, dulces y golosinas",
+        "porcion": "1 rebanada",
+        "carb": 30
+    },
+    {
+        "id": 150,
+        "nombre": "dulce de batata dietetico",
+        "categoria": "azucar, dulces y golosinas",
+        "porcion": "1 rebanada",
+        "carb": 15
+    },
+    {
+        "id": 151,
+        "nombre": "dulce de leche comun o dietetico",
+        "categoria": "azucar, dulces y golosinas",
+        "porcion": "2 cucharadas soperas",
+        "carb": 15
+    },
+    {
+        "id": 152,
+        "nombre": "dulce de membrillo dietetico",
+        "categoria": "azucar, dulces y golosinas",
+        "porcion": "1 rebanada",
+        "carb": 15
+    },
+    {
+        "id": 153,
+        "nombre": "dulce o jalea comun",
+        "categoria": "azucar, dulces y golosinas",
+        "porcion": "2 cucharadas de te",
+        "carb": 15
+    },
+    {
+        "id": 154,
+        "nombre": "gelatina comun",
+        "categoria": "azucar, dulces y golosinas",
+        "porcion": "1 taza",
+        "carb": 15
+    },
+    {
+        "id": 155,
+        "nombre": "miel",
+        "categoria": "azucar, dulces y golosinas",
+        "porcion": "2 cucharadas de te",
+        "carb": 15
+    },
+    {
+        "id": 156,
+        "nombre": "mermelada de fruta dietetica",
+        "categoria": "azucar, dulces y golosinas",
+        "porcion": "3 cucharadas soperas",
+        "carb": 15
+    },
+    {
+        "id": 157,
+        "nombre": "dulce de batata dietetico",
+        "categoria": "azucar, dulces y golosinas",
+        "porcion": "1 rebanada",
+        "carb": 15
+    },
+    {
+        "id": 158,
+        "nombre": "alfajor de chocolate y dulce de leche",
+        "categoria": "azucar, dulces y golosinas",
+        "porcion": "1 unidad",
+        "carb": 30
+    },
+    {
+        "id": 159,
+        "nombre": "alfajor dietetico",
+        "categoria": "azucar, dulces y golosinas",
+        "porcion": "1 unidad",
+        "carb": 30
+    },
+    {
+        "id": 160,
+        "nombre": "bananita cubierta de chocolate",
+        "categoria": "azucar, dulces y golosinas",
+        "porcion": "1 unidad",
+        "carb": 15
+    },
+    {
+        "id": 161,
+        "nombre": "caramelos",
+        "categoria": "azucar, dulces y golosinas",
+        "porcion": "3 unidades",
+        "carb": 15
+    },
+    {
+        "id": 162,
+        "nombre": "barrita de chocolate y cereal dietetica",
+        "categoria": "azucar, dulces y golosinas",
+        "porcion": "1 unidad",
+        "carb": 7
+    },
+    {
+        "id": 163,
+        "nombre": "chocolate de taza",
+        "categoria": "azucar, dulces y golosinas",
+        "porcion": "1 barrita",
+        "carb": 15
+    },
+    {
+        "id": 164,
+        "nombre": "galletita rellena de limon y cobertura de chocolate",
+        "categoria": "azucar, dulces y golosinas",
+        "porcion": "1 unidad",
+        "carb": 15
+    },
+    {
+        "id": 165,
+        "nombre": "chocolate en polvo",
+        "categoria": "azucar, dulces y golosinas",
+        "porcion": "2 cucharadas de te",
+        "carb": 15
+    },
+    {
+        "id": 166,
+        "nombre": "turron de almendras",
+        "categoria": "azucar, dulces y golosinas",
+        "porcion": "1 porción",
+        "carb": 15
+    },
+    {
+        "id": 167,
+        "nombre": "merengue",
+        "categoria": "azucar, dulces y golosinas",
+        "porcion": "1 unidad chica",
+        "carb": 15
+    },
+    {
+        "id": 168,
+        "nombre": "turron de mani",
+        "categoria": "azucar, dulces y golosinas",
+        "porcion": "unidad de 30 gr",
+        "carb": 30
+    },
+    {
+        "id": 169,
+        "nombre": "huevo de pascua",
+        "categoria": "azucar, dulces y golosinas",
+        "porcion": "1 unidad",
+        "carb": 15
+    },
+    {
+        "id": 170,
+        "nombre": "alfajor de arroz",
+        "categoria": "azucar, dulces y golosinas",
+        "porcion": "1 unidad",
+        "carb": 15
+    },
+    {
+        "id": 171,
+        "nombre": "cucurucho",
+        "categoria": "azucar, dulces y golosinas",
+        "porcion": "1 unidad",
+        "carb": 15
+    },
+    {
+        "id": 172,
+        "nombre": "casata de tres gustos",
+        "categoria": "helados",
+        "porcion": "1 unidad",
+        "carb": 15
+    },
+    {
+        "id": 173,
+        "nombre": "helado bombón",
+        "categoria": "helados",
+        "porcion": "2 unidades",
+        "carb": 15
+    },
+    {
+        "id": 174,
+        "nombre": "helado",
+        "categoria": "helados",
+        "porcion": "1 bocha",
+        "carb": 15
+    },
+    {
+        "id": 175,
+        "nombre": "cono de vainilla",
+        "categoria": "helados",
+        "porcion": "1 unidad",
+        "carb": 15
+    },
+    {
+        "id": 176,
+        "nombre": "helado de agua",
+        "categoria": "helados",
+        "porcion": "1 unidad",
+        "carb": 15
+    },
+    {
+        "id": 177,
+        "nombre": "helado de crema en palito",
+        "categoria": "helados",
+        "porcion": "1 unidad",
+        "carb": 15
+    },
+    {
+        "id": 178,
+        "nombre": "helado dietetico",
+        "categoria": "helados",
+        "porcion": "1/2 taza",
+        "carb": 15
+    },
+    {
+        "id": 179,
+        "nombre": "chipa",
+        "categoria": "comidas regionales",
+        "porcion": "1 unidad grande",
+        "carb": 30
+    },
+    {
+        "id": 180,
+        "nombre": "empanada arabe",
+        "categoria": "comidas regionales",
+        "porcion": "1 unidad",
+        "carb": 30
+    },
+    {
+        "id": 181,
+        "nombre": "empanada de hunita",
+        "categoria": "comidas regionales",
+        "porcion": "1 unidad",
+        "carb": 30
+    },
+    {
+        "id": 182,
+        "nombre": "empanadas",
+        "categoria": "comidas regionales",
+        "porcion": "1 unidad grande",
+        "carb": 15
+    },
+    {
+        "id": 183,
+        "nombre": "humita en chala",
+        "categoria": "comidas regionales",
+        "porcion": "1 porcion",
+        "carb": 30
+    },
+    {
+        "id": 184,
+        "nombre": "locro",
+        "categoria": "comidas regionales",
+        "porcion": "1 plato hondo",
+        "carb": 75
+    },
+    {
+        "id": 185,
+        "nombre": "tamales",
+        "categoria": "comidas regionales",
+        "porcion": "2 unidades",
+        "carb": 15
+    },
+    {
+        "id": 186,
+        "nombre": "tortas fritas",
+        "categoria": "comidas regionales",
+        "porcion": "1 unidad grande",
+        "carb": 30
+    },
+    {
+        "id": 187,
+        "nombre": "tortilla",
+        "categoria": "comidas regionales",
+        "porcion": "1 unidad",
+        "carb": 15
+    },
+    {
+        "id": 188,
+        "nombre": "tortitas",
+        "categoria": "comidas regionales",
+        "porcion": "1 unidad",
+        "carb": 30
+    },
+    {
+        "id": 189,
+        "nombre": "sushi tipo roll",
+        "categoria": "comidas regionales",
+        "porcion": "1 pieza",
+        "carb": 5
+    },
+    {
+        "id": 190,
+        "nombre": "sushi tipo nigiri",
+        "categoria": "comidas regionales",
+        "porcion": "1 pieza",
+        "carb": 10
+    },
+    {
+        "id": 191,
+        "nombre": "ensalada rusa",
+        "categoria": "comidas regionales",
+        "porcion": "1/2 plato",
+        "carb": 30
+    },
+    {
+        "id": 192,
+        "nombre": "milanesa",
+        "categoria": "comidas regionales",
+        "porcion": "1 unidad mediana",
+        "carb": 15
+    },
+    {
+        "id": 193,
+        "nombre": "gaseosa comun",
+        "categoria": "bebidas",
+        "porcion": "1 vaso chico",
+        "carb": 15
+    },
+    {
+        "id": 194,
+        "nombre": "cerveza",
+        "categoria": "bebidas",
+        "porcion": "1 chop",
+        "carb": 15
+    },
+    {
+        "id": 195,
+        "nombre": "sidra etiqueta blanca",
+        "categoria": "bebidas",
+        "porcion": "1 copa",
+        "carb": 15
+    },
+    {
+        "id": 196,
+        "nombre": "champagne dulce",
+        "categoria": "bebidas",
+        "porcion": "1 copa",
+        "carb": 15
+    },
+    {
+        "id": 197,
+        "nombre": "jugo de naranja natural",
+        "categoria": "bebidas",
+        "porcion": "1/2 vaso",
+        "carb": 15
+    },
+    {
+        "id": 198,
+        "nombre": "sidra etiqueta negra",
+        "categoria": "bebidas",
+        "porcion": "1 copa",
+        "carb": 8
+    },
+    {
+        "id": 199,
+        "nombre": "jugo de pomelo natural",
+        "categoria": "bebidas",
+        "porcion": "1/2 vaso",
+        "carb": 15
+    },
+    {
+        "id": 200,
+        "nombre": "jugo comercial comun",
+        "categoria": "bebidas",
+        "porcion": "1 vaso",
+        "carb": 15
+    },
+    {
+        "id": 201,
+        "nombre": "jugo comercial dietetico",
+        "categoria": "bebidas",
+        "porcion": "1 vaso",
+        "carb": 5
+    },
+    {
+        "id": 202,
+        "nombre": "bebida energizante",
+        "categoria": "bebidas",
+        "porcion": "250 cc",
+        "carb": 15
+    }
+]

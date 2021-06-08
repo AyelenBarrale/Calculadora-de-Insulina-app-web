@@ -1,0 +1,175 @@
+h1 {
+    font-size: $h1;
+    text-align: center;
+}
+h2{
+    font-size: $h2;
+    text-align: center;
+}
+p{
+    font-size: $p;
+    text-align: center;
+}
+
+.formContainer {
+    display: flex;
+    flex-wrap: wrap;
+    #searchInput {
+        width: 90%;
+        padding: 1% 3%;
+        border-radius: 3%;
+        border:solid $bg-lgrey;
+        outline-color: $bg-color-blue;
+        cursor: pointer;
+    }
+    #btnBuscar {
+        width: 10%;
+        border-radius: 3%;
+        border-style: hidden;
+        font-size: $p;
+        background-color: $bg-color-blue;
+        color: $bg-color-wh;
+    }
+}
+
+#list-container {
+    z-index: 0;
+    background-color: $bg-lgrey;
+    width: 90%;
+    padding: 0;
+    .alimento-item {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 5%;
+        list-style: none;
+        border: solid 1px $bg-color-wh;
+        padding: 1% 4%;
+        .p-item {
+            text-align: left;
+            margin-bottom: 0;
+        }
+        .btnListar {
+            border: none;
+            border-radius: 100%;
+            padding: 0% 1.4%;
+            outline: none;
+            color: $bg-color-wh;
+            height: fit-content;
+            justify-content: flex-end;
+            background-color: $bg-color-blue;
+        }
+    }
+}
+
+.active {
+    z-index: 1;
+}
+
+.tabla {
+    width: 100%;
+    margin-bottom: 5%;
+    thead {
+        background-color: $bg-color-blue;
+        th {
+            padding: 2%;
+            justify-content: space-between;
+            align-content: space-around;
+            text-align: center;
+            color: $bg-color-wh;
+        }
+    }
+    tbody {
+        background-color: $bg-lgrey;
+        font-size: $p;
+        color: $color-grey;
+    }
+    tfoot {
+        background-color: #b7b9b9;
+        th {
+            padding: 2%;
+            text-align: center;
+            font-size: $p;
+            color: $color-grey;
+        }
+        td {
+            text-align: center;
+            align-content: space-around;
+            justify-content: space-between;
+            button {
+                padding: 1.4% 8%;
+                border: none;
+                border-radius: 5%;
+                outline: none;
+                color: $bg-color-wh;
+                height: fit-content;
+                justify-content: flex-end;
+                background-color: rgb(206, 73, 73);
+            }
+        }
+        .totalCarbs, .dosis {
+            text-align: center;
+            font-size: $h3;
+            color: $bg-color-wh;
+        }
+    }
+}
+
+#alimentos {
+    tr {
+        text-align: center;
+        align-content: space-around;
+        justify-content: space-between;
+        td {
+            padding: 1% 0;
+            .btnSumar {
+                padding: 0.7% 7%;
+                border: none;
+                border-radius: 100%;
+                outline: none;
+                color: $bg-color-wh;
+                height: fit-content;
+                justify-content: flex-end;
+                background-color: $bg-color-blue;
+            }
+            .btnRestar {
+                padding: 1.4% 8%;
+                border: none;
+                border-radius: 100%;
+                outline: none;
+                color: $bg-color-wh;
+                height: fit-content;
+                justify-content: flex-end;
+                background-color: $bg-color-blue;
+            }
+        }
+    }
+}
+
+
+
+/* #list-agregados {
+    background-color: $bg-lgrey;
+    width: 100%;
+    padding: 0;
+    .alimento-item {
+        display: flex;
+        column-gap: 5%;
+        list-style: none;
+        border: solid 1px $bg-color-wh;
+        padding: 2% 4%;
+        .p-item {
+            text-align: left;
+            margin-bottom: 0;
+        }
+        i {
+            color: $color-blue;
+            justify-content: flex-end;
+        }
+        button {
+            border: none;
+            outline: none;
+            height: fit-content;
+            background-color: transparent;
+        }
+    }
+} */

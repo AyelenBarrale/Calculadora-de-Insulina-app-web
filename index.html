@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es_LA">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">   
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!--SEO-->
+    <meta name="author" content="Ayelen Barrale. Web Development"/>
+    <meta name="copyright" content="Ayelen Barrale 2021"/>
+    <meta name="keywords" content="diabetes, insulina, calculadora de carbohidratos, dosis de insulina, carbohidratos e insulina, calculadora de dosis de insulina, diabetes tipo 1">
+    <meta name="description" content="Aplicación Web para calcular cuántas dosis de insulina son necesarias en base a la cantidad de carbohidratos ingeridos">
+    <link rel="shortcut icon" href="" type="image/x-icon"> 
+    <title>Calculadora de dosis de insulina</title>
+
+
+    <!--Protocolo Open Graph-->
+    <meta property= "og-title" content="Calculadora de carbohidratos y dosis de insulina">
+    <meta property= "og-description" content="Aplicación Web para calcular cuántas dosis de insulina son necesarias en base a la cantidad de carbohidratos ingeridos">
+    <meta property= "og-image" content= "" > 
+    <meta property= "og-url" content= "" > 
+    <meta property= "og-type" content= "website" >
+    <meta property= "og-locale" content= "es_LA" >
+
+</head>
+<body>
+    
+    <h1>Diabetes App</h1>
+    <h2>Contador de carbohidratos</h2>
+    <p>Ingresá el alimento a consultar y la cantidad aproximada consumida del mismo. Luego haz click en calcular dosis y obtendrás la cantidad de unidades de insulina requerida</p>
+    
+    <table class="tabla">
+        <thead>
+            <tr>
+                <th scope="col">Alimento</th>
+                <th scope="col">Porciones</th>
+                <th scope="col">Acción</th>
+                <th scope="col">Total de carbohidratos</th>
+            </tr>
+        </thead>
+        <tbody id="alimentos"></tbody>
+        <tfoot>
+            <tr id="tablaFooter">
+                <th scope="row" colspan="5">Listado vacío - Comienza a cargar tus alimentos</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <div class="search-container">
+        <form class="formContainer">
+          <input type="text" placeholder="Ingresar alimento" name="search" id="searchInput">
+          <button type="submit" id="btnBuscar"><i class="fa fa-search"></i></button>
+        </form>
+
+        <ul id="list-container"></ul>
+    </div>
+
+
+    <template id="template-alimento">
+        <li class="alimento-item">
+            <p class="p-item nombre">Alimento</p>
+            <p class="p-item">Porción: <span class="porcion">1/2 tasa</span></p>
+            <p class="p-item">Carbs: <span class="carbs">15</span></p>
+            <button class="btnListar">+</button>
+        </li>
+    </template>
+
+    <template id="template-footer">
+        <th scope="row" class="totalCarbs">Total: <span class="spanCarbs">5000</span> carbohidratos</th>
+        <td class="dosis"colspan="2"> Dosis de Insulina: <span class="totalDosis">100</span></td>
+        <td>
+            <button class="btnVaciar" id="vaciarListado">vaciar</button>
+        </td>
+    </template>
+
+    <template id="template-listado">
+        <tr>
+            <td>cafe</td>
+            <td>1</td>
+            <td>
+                <button class="btnSumar">+</button>
+                <button class="btnRestar">-</button>
+            </td>
+            <td class="carbSum">30</td>
+        </tr>
+    </template>
+
+
+    <!-- JS -->
+    <script src="./js/alimentos.js"></script>
+
+    <!-- Bootstrap -->
+    <!-- Option 1: Bootstrap Bundle with Popper 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script> -->
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+ 
+</body>
+</html>

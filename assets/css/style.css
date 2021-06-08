@@ -1,0 +1,189 @@
+/* Base */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  color: #646464;
+  background-color: #fcfdfd;
+  margin: 10%;
+}
+
+/* Components */
+h1 {
+  font-size: 34px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 21px;
+  text-align: center;
+}
+
+p {
+  font-size: 14px;
+  text-align: center;
+}
+
+.formContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.formContainer #searchInput {
+  width: 90%;
+  padding: 1% 3%;
+  border-radius: 3%;
+  border: solid #e8e9e9;
+  outline-color: #70bce7;
+  cursor: pointer;
+}
+.formContainer #btnBuscar {
+  width: 10%;
+  border-radius: 3%;
+  border-style: hidden;
+  font-size: 14px;
+  background-color: #70bce7;
+  color: #fcfdfd;
+}
+
+#list-container {
+  z-index: 0;
+  background-color: #e8e9e9;
+  width: 90%;
+  padding: 0;
+}
+#list-container .alimento-item {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 5%;
+  list-style: none;
+  border: solid 1px #fcfdfd;
+  padding: 1% 4%;
+}
+#list-container .alimento-item .p-item {
+  text-align: left;
+  margin-bottom: 0;
+}
+#list-container .alimento-item .btnListar {
+  border: none;
+  border-radius: 100%;
+  padding: 0% 1.4%;
+  outline: none;
+  color: #fcfdfd;
+  height: fit-content;
+  justify-content: flex-end;
+  background-color: #70bce7;
+}
+
+.active {
+  z-index: 1;
+}
+
+.tabla {
+  width: 100%;
+  margin-bottom: 5%;
+}
+.tabla thead {
+  background-color: #70bce7;
+}
+.tabla thead th {
+  padding: 2%;
+  justify-content: space-between;
+  align-content: space-around;
+  text-align: center;
+  color: #fcfdfd;
+}
+.tabla tbody {
+  background-color: #e8e9e9;
+  font-size: 14px;
+  color: #646464;
+}
+.tabla tfoot {
+  background-color: #b7b9b9;
+}
+.tabla tfoot th {
+  padding: 2%;
+  text-align: center;
+  font-size: 14px;
+  color: #646464;
+}
+.tabla tfoot td {
+  text-align: center;
+  align-content: space-around;
+  justify-content: space-between;
+}
+.tabla tfoot td button {
+  padding: 1.4% 8%;
+  border: none;
+  border-radius: 5%;
+  outline: none;
+  color: #fcfdfd;
+  height: fit-content;
+  justify-content: flex-end;
+  background-color: #ce4949;
+}
+.tabla tfoot .totalCarbs, .tabla tfoot .dosis {
+  text-align: center;
+  font-size: 18px;
+  color: #fcfdfd;
+}
+
+#alimentos tr {
+  text-align: center;
+  align-content: space-around;
+  justify-content: space-between;
+}
+#alimentos tr td {
+  padding: 1% 0;
+}
+#alimentos tr td .btnSumar {
+  padding: 0.7% 7%;
+  border: none;
+  border-radius: 100%;
+  outline: none;
+  color: #fcfdfd;
+  height: fit-content;
+  justify-content: flex-end;
+  background-color: #70bce7;
+}
+#alimentos tr td .btnRestar {
+  padding: 1.4% 8%;
+  border: none;
+  border-radius: 100%;
+  outline: none;
+  color: #fcfdfd;
+  height: fit-content;
+  justify-content: flex-end;
+  background-color: #70bce7;
+}
+
+/* #list-agregados {
+    background-color: $bg-lgrey;
+    width: 100%;
+    padding: 0;
+    .alimento-item {
+        display: flex;
+        column-gap: 5%;
+        list-style: none;
+        border: solid 1px $bg-color-wh;
+        padding: 2% 4%;
+        .p-item {
+            text-align: left;
+            margin-bottom: 0;
+        }
+        i {
+            color: $color-blue;
+            justify-content: flex-end;
+        }
+        button {
+            border: none;
+            outline: none;
+            height: fit-content;
+            background-color: transparent;
+        }
+    }
+} */
+
+/*# sourceMappingURL=style.css.map */
