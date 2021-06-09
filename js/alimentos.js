@@ -1,8 +1,13 @@
+
+
+let alimentosArray =[];
+
 const listContainer = document.getElementById("list-container")
 const alimentos = document.getElementById("alimentos")
 const tablaFooter = document.getElementById("tablaFooter")
 const search = document.getElementById("searchInput")
 const btnBuscar = document.getElementById("btnBuscar")
+const inactive =document.querySelector(".inactive")
 
 const templateAlimento = document.getElementById("template-alimento").content
 const templateFooter = document.getElementById("template-footer").content
@@ -11,6 +16,7 @@ const templateListado = document.getElementById("template-listado").content
 const fragment = new DocumentFragment()
 
 let listado = {}
+
 
 ////////////
 
@@ -21,6 +27,7 @@ document.addEventListener("DOMContentLoaded" , () => {
         mostrarListado()
     }
 } )
+
 
 listContainer.addEventListener( "click" , event => {
     addList(event) 
@@ -34,11 +41,14 @@ search.addEventListener("keyup" , (dato) => {
     const ingreso = dato.target.value.toLowerCase()
     console.log(ingreso)
     
-    const listadoFiltrado = Object.values(listado).filter(alimento => {
+    const listadoFiltrado = alimentosArray.filter(alimento => {
         return alimento.nombre.includes(ingreso)
     })
     console.log(listadoFiltrado)
     mostrarAlimentos(listadoFiltrado)
+    inactive.classList.toggle("active")
+    
+
 })
 
 ////////////
@@ -47,17 +57,18 @@ const fetchData = async () => {
     try {
         const res = await fetch("alimentos.json")
         const data = await res.json()
-        mostrarAlimentos(data)
+
+        alimentosArray = data 
+        mostrarAlimentos(alimentosArray)
         } catch (error) {
         console.log(error)
     }
 }
-
-const mostrarAlimentos = (data) => {
+const mostrarAlimentos = (array) => {
 
     listContainer.innerHTML = "";
     
-    data.forEach(alimento => {
+    array.forEach(alimento => {
         templateAlimento.querySelector(".nombre").textContent = alimento.nombre
         templateAlimento.querySelector(".porcion").textContent = alimento.porcion
         templateAlimento.querySelector(".carbs").textContent = alimento.carb
@@ -76,6 +87,9 @@ const addList = event => {
         completarListado(event.target.parentElement)
     }
     event.stopPropagation()
+
+    search.value = "";
+    listContainer.innerHTML = "";
 }
 
 const completarListado = objeto => {
@@ -92,6 +106,7 @@ const completarListado = objeto => {
     }
 
     listado[alimento.id] = {...alimento}
+    console.log(listado)
 
     mostrarListado()
 }

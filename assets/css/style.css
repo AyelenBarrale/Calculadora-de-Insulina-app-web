@@ -49,7 +49,6 @@ p {
 }
 
 #list-container {
-  z-index: 0;
   background-color: #e8e9e9;
   width: 90%;
   padding: 0;
@@ -77,8 +76,12 @@ p {
   background-color: #70bce7;
 }
 
+.inactive {
+  visibility: hidden;
+}
+
 .active {
-  z-index: 1;
+  visibility: visible;
 }
 
 .tabla {
