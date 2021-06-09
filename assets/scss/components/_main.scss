@@ -40,6 +40,7 @@ p{
     .alimento-item {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         column-gap: 5%;
         list-style: none;
         border: solid 1px $bg-color-wh;
@@ -49,15 +50,14 @@ p{
             margin-bottom: 0;
         }
         .btnListar {
+            font-size: 30px;
             border: none;
-            border-radius: 100%;
-            padding: 0% 1.4%;
+            background-color: transparent;
             outline: none;
-            color: $bg-color-wh;
-            height: fit-content;
+            color: $bg-color-blue;
             justify-content: flex-end;
-            background-color: $bg-color-blue;
         }
+
     }
 }
 
@@ -127,24 +127,22 @@ p{
         td {
             padding: 1% 0;
             .btnSumar {
-                padding: 0.7% 7%;
+                margin-right: 10%;
+                font-size: 30px;
                 border: none;
-                border-radius: 100%;
+                background-color: transparent;
                 outline: none;
-                color: $bg-color-wh;
-                height: fit-content;
+                color: $bg-color-blue;
                 justify-content: flex-end;
-                background-color: $bg-color-blue;
             }
             .btnRestar {
-                padding: 1.4% 8%;
                 border: none;
-                border-radius: 100%;
+                font-size: 35px;
+                border: none;
+                background-color: transparent;
                 outline: none;
-                color: $bg-color-wh;
-                height: fit-content;
+                color: $bg-color-blue;
                 justify-content: flex-end;
-                background-color: $bg-color-blue;
             }
         }
     }
