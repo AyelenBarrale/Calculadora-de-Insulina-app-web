@@ -7,7 +7,6 @@ const alimentos = document.getElementById("alimentos")
 const tablaFooter = document.getElementById("tablaFooter")
 const search = document.getElementById("searchInput")
 const btnBuscar = document.getElementById("btnBuscar")
-const inactive =document.querySelector(".inactive")
 
 const templateAlimento = document.getElementById("template-alimento").content
 const templateFooter = document.getElementById("template-footer").content
@@ -46,9 +45,6 @@ search.addEventListener("keyup" , (dato) => {
     })
     console.log(listadoFiltrado)
     mostrarAlimentos(listadoFiltrado)
-    inactive.classList.toggle("active")
-    
-
 })
 
 ////////////
@@ -59,7 +55,8 @@ const fetchData = async () => {
         const data = await res.json()
 
         alimentosArray = data 
-        mostrarAlimentos(alimentosArray)
+        //mostrarAlimentos(alimentosArray)
+        
         } catch (error) {
         console.log(error)
     }
@@ -69,6 +66,7 @@ const mostrarAlimentos = (array) => {
     listContainer.innerHTML = "";
     
     array.forEach(alimento => {
+        listContainer.classList.add("active")
         templateAlimento.querySelector(".nombre").textContent = alimento.nombre
         templateAlimento.querySelector(".porcion").textContent = alimento.porcion
         templateAlimento.querySelector(".carbs").textContent = alimento.carb
