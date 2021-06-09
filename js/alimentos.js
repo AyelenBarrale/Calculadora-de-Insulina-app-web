@@ -50,6 +50,9 @@ search.addEventListener("keyup" , (dato) => {
     })
 
     mostrarAlimentos(listadoFiltrado)
+
+    search.innerHTML = "";
+    listContainer.innerHTML = "";
 })
 
 ////////////
@@ -86,12 +89,11 @@ const mostrarAlimentos = (array) => {
 
 
 const addList = event => {
-    console.log(event)
     if(event.target.classList.contains("btnListar")) {
         completarListado(event.target.parentElement)
     }
 
-    //event.stopPropagation()
+    event.stopPropagation()
 
     search.value = "";
     listContainer.innerHTML = "";
@@ -102,7 +104,7 @@ const completarListado = objeto => {
     const alimento = {
         id: objeto.querySelector(".btnListar").dataset.id,
         nombre: objeto.querySelector(".nombre").textContent,
-        carb: objeto.querySelector(".carbs").textContent,
+        carb: objeto.querySelector(".carbs").textContent, 
         porciones: 1
     }
 
