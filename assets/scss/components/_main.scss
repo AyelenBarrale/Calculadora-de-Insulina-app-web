@@ -10,6 +10,24 @@ p{
     font-size: $p;
     text-align: center;
 }
+.aclaracion {
+    font-weight: 300;
+}
+
+#infoUtil {
+    width: 30%;
+    background-color: $color-blue;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto 5% auto;
+    p {
+        margin-bottom: 0;
+        padding: 5%;
+        color: $bg-color-wh;
+    }
+}
 
 .formContainer {
     display: flex;
@@ -103,7 +121,7 @@ p{
             button {
                 padding: 1.4% 8%;
                 border: none;
-                border-radius: 5%;
+                border-radius: 5px;
                 outline: none;
                 color: $bg-color-wh;
                 height: fit-content;
