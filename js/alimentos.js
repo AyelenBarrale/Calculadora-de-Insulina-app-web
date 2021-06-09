@@ -51,8 +51,6 @@ search.addEventListener("keyup" , (dato) => {
 
     mostrarAlimentos(listadoFiltrado)
 
-    search.innerHTML = "";
-    listContainer.innerHTML = "";
 })
 
 ////////////
