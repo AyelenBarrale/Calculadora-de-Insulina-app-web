@@ -81,6 +81,11 @@ p {
   z-index: 1;
 }
 
+.table-responsive {
+  min-height: 0.01%;
+  overflow-x: auto;
+}
+
 .tabla {
   width: 100%;
   margin-bottom: 5%;
@@ -185,5 +190,34 @@ p {
         }
     }
 } */
+@media only screen and (max-width: 679px) {
+  .table-responsive {
+    width: 100%;
+    margin-bottom: 5px;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+  .table-responsive .table thead tr th {
+    white-space: nowrap;
+  }
+
+  th {
+    padding: 1%;
+    font-size: 12px;
+  }
+
+  tbody tr {
+    font-size: 10px;
+  }
+
+  .tabla tfoot .totalCarbs, .tabla tfoot .dosis {
+    font-size: 12px;
+  }
+
+  .tabla tfoot td button {
+    padding: 1% 3%;
+    font-size: 12px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

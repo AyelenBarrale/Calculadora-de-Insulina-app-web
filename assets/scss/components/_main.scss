@@ -65,6 +65,11 @@ p{
     z-index: 1;
 }
 
+.table-responsive {
+    min-height: .01%;
+    overflow-x: auto;
+}
+
 .tabla {
     width: 100%;
     margin-bottom: 5%;

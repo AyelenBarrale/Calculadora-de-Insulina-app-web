@@ -43,22 +43,24 @@
     <h2>Contador de carbohidratos</h2>
     <p>Ingresá el alimento a consultar y la cantidad aproximada consumida del mismo. Luego haz click en calcular dosis y obtendrás la cantidad de unidades de insulina requerida</p>
     
-    <table class="tabla">
-        <thead>
-            <tr>
-                <th scope="col">Alimento</th>
-                <th scope="col">Porciones</th>
-                <th scope="col">Acción</th>
-                <th scope="col">Total de carbohidratos</th>
-            </tr>
-        </thead>
-        <tbody id="alimentos"></tbody>
-        <tfoot>
-            <tr id="tablaFooter">
-                <th scope="row" colspan="5">Listado vacío - Comienza a cargar tus alimentos</th>
-            </tr>
-        </tfoot>
-    </table>
+    <div class="table-responsive">
+        <table class="tabla">
+            <thead>
+                <tr>
+                    <th scope="col">Alimento</th>
+                    <th scope="col">Porciones</th>
+                    <th scope="col">Acción</th>
+                    <th scope="col">Total Carbs</th>
+                </tr>
+            </thead>
+            <tbody id="alimentos"></tbody>
+            <tfoot>
+                <tr id="tablaFooter">
+                    <th scope="row" colspan="5">Listado vacío - Comienza a cargar tus alimentos</th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
 
     <div class="search-container">
         <form class="formContainer">
