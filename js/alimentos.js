@@ -87,11 +87,11 @@ const mostrarAlimentos = (array) => {
 
 const addList = event => {
     console.log(event)
-    if(event.target.classList.contains("alimento-item")) {
-        completarListado(event.target)
+    if(event.target.classList.contains("btnListar")) {
+        completarListado(event.target.parentElement)
     }
 
-    event.stopPropagation()
+    //event.stopPropagation()
 
     search.value = "";
     listContainer.innerHTML = "";
