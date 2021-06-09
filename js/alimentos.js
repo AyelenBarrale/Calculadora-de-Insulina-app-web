@@ -5,6 +5,7 @@ let alimentosArray =[];
 const listContainer = document.getElementById("list-container")
 const alimentos = document.getElementById("alimentos")
 const tablaFooter = document.getElementById("tablaFooter")
+const searchContainer = document.getElementById("searchContainer")
 const search = document.getElementById("searchInput")
 const btnBuscar = document.getElementById("btnBuscar")
 
@@ -36,14 +37,18 @@ alimentos.addEventListener( "click" , event => {
     btnsAccion(event)
 })
 
+searchContainer.addEventListener("click" , () => {
+    mostrarAlimentos(alimentosArray)
+})
+
+
 search.addEventListener("keyup" , (dato) => {
     const ingreso = dato.target.value.toLowerCase()
-    console.log(ingreso)
     
     const listadoFiltrado = alimentosArray.filter(alimento => {
         return alimento.nombre.includes(ingreso)
     })
-    console.log(listadoFiltrado)
+
     mostrarAlimentos(listadoFiltrado)
 })
 
@@ -81,9 +86,11 @@ const mostrarAlimentos = (array) => {
 
 
 const addList = event => {
-    if(event.target.classList.contains("btnListar")){
-        completarListado(event.target.parentElement)
+    console.log(event)
+    if(event.target.classList.contains("alimento-item")) {
+        completarListado(event.target)
     }
+
     event.stopPropagation()
 
     search.value = "";
