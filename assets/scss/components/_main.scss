@@ -1,23 +1,27 @@
 h1 {
     font-size: $h1;
     text-align: center;
+    font-weight: 600;
 }
 h2{
     font-size: $h2;
     text-align: center;
+    font-weight: 400;
 }
 p{
     font-size: $p;
     text-align: center;
+    font-weight: 200;
 }
 .aclaracion {
-    font-weight: 300;
+    font-weight: 200;
+    font-size: 14px;
 }
 
 #infoUtil {
     width: 30%;
-    background-color: $color-blue;
-    border-radius: 20px;
+    background: linear-gradient(290deg, rgba(125,111,173,1) 51%, rgba(167,151,222,1) 100%);
+    border-radius: 45px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -32,27 +36,32 @@ p{
 .formContainer {
     display: flex;
     flex-wrap: wrap;
+    outline: none;
     #searchInput {
         width: 90%;
         padding: 1% 3%;
-        border-radius: 3%;
+        border-radius: 50px;
         border:solid $bg-lgrey;
-        outline-color: $bg-color-blue;
+        outline: transparent;
         cursor: pointer;
     }
     #btnBuscar {
         width: 10%;
-        border-radius: 3%;
+        border-radius: 50px;
         border-style: hidden;
         font-size: $p;
-        background-color: $bg-color-blue;
-        color: $bg-color-wh;
+        background: linear-gradient(290deg, rgba(125,111,173,1) 51%, rgba(167,151,222,1) 100%);
+        color: $color-vwhite;
+        &:hover {
+            transform: scale(1.05);
+            transition: 2s;
+            background: linear-gradient(290deg, rgba(90,78,129,1) 51%, rgba(167,151,222,1) 100%);
+        }
     }
 }
 
 #list-container {
     z-index: 0;
-    background-color: $bg-lgrey;
     width: 90%;
     padding: 0;
     .alimento-item {
@@ -63,17 +72,23 @@ p{
         list-style: none;
         border: solid 1px $bg-color-wh;
         padding: 1% 4%;
+        border-radius: 50px;
+        background: linear-gradient(290deg, rgba(125,111,173,1) 51%, rgba(167,151,222,1) 100%);
         .p-item {
             text-align: left;
             margin-bottom: 0;
+            color: $color-vwhite;
         }
         .btnListar {
             font-size: 30px;
             border: none;
             background-color: transparent;
             outline: none;
-            color: $bg-color-blue;
+            color: $color-vlight;
             justify-content: flex-end;
+            &:hover {
+                color: $color-v;
+            }
         }
 
     }
@@ -86,19 +101,20 @@ p{
 .table-responsive {
     min-height: .01%;
     overflow-x: auto;
+    border-radius: 20px;
 }
 
 .tabla {
     width: 100%;
     margin-bottom: 5%;
     thead {
-        background-color: $bg-color-blue;
+        background: linear-gradient(290deg, rgba(125,111,173,1) 51%, rgba(167,151,222,1) 100%);
         th {
             padding: 2%;
             justify-content: space-between;
             align-content: space-around;
             text-align: center;
-            color: $bg-color-wh;
+            color: $color-vwhite;
         }
     }
     tbody {
@@ -126,7 +142,12 @@ p{
                 color: $bg-color-wh;
                 height: fit-content;
                 justify-content: flex-end;
-                background-color: rgb(206, 73, 73);
+                background: linear-gradient(290deg, rgba(125,111,173,1) 51%, rgba(167,151,222,1) 100%);
+                &:hover {
+                    transform: scale(1.1);
+                    transition: 2s;
+                    background: linear-gradient(290deg, rgba(90,78,129,1) 51%, rgba(167,151,222,1) 100%);
+                }
             }
         }
         .totalCarbs, .dosis {
@@ -150,8 +171,11 @@ p{
                 border: none;
                 background-color: transparent;
                 outline: none;
-                color: $bg-color-blue;
+                color: $color-vlight;
                 justify-content: flex-end;
+                &:hover {
+                    color: $color-v;
+                }
             }
             .btnRestar {
                 border: none;
@@ -159,38 +183,13 @@ p{
                 border: none;
                 background-color: transparent;
                 outline: none;
-                color: $bg-color-blue;
+                color: $color-vlight;
                 justify-content: flex-end;
+                &:hover {
+                    color: $color-v;
+                }
             }
         }
     }
 }
 
-
-
-/* #list-agregados {
-    background-color: $bg-lgrey;
-    width: 100%;
-    padding: 0;
-    .alimento-item {
-        display: flex;
-        column-gap: 5%;
-        list-style: none;
-        border: solid 1px $bg-color-wh;
-        padding: 2% 4%;
-        .p-item {
-            text-align: left;
-            margin-bottom: 0;
-        }
-        i {
-            color: $color-blue;
-            justify-content: flex-end;
-        }
-        button {
-            border: none;
-            outline: none;
-            height: fit-content;
-            background-color: transparent;
-        }
-    }
-} */
