@@ -26,6 +26,7 @@ p{
     align-items: center;
     text-align: center;
     margin: 0 auto 5% auto;
+    box-shadow: 5px 5px 5px $color-v;
     p {
         margin-bottom: 0;
         padding: 5%;
@@ -52,6 +53,7 @@ p{
         font-size: $p;
         background: linear-gradient(290deg, rgba(125,111,173,1) 51%, rgba(167,151,222,1) 100%);
         color: $color-vwhite;
+        box-shadow: 3px 3px 3px $color-v;
         &:hover {
             transform: scale(1.05);
             transition: 2s;
@@ -143,6 +145,7 @@ p{
                 height: fit-content;
                 justify-content: flex-end;
                 background: linear-gradient(290deg, rgba(125,111,173,1) 51%, rgba(167,151,222,1) 100%);
+                box-shadow: 3px 3px 3px $color-v;
                 &:hover {
                     transform: scale(1.1);
                     transition: 2s;

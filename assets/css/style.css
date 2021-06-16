@@ -43,6 +43,7 @@ p {
   align-items: center;
   text-align: center;
   margin: 0 auto 5% auto;
+  box-shadow: 5px 5px 5px #484175;
 }
 #infoUtil p {
   margin-bottom: 0;
@@ -70,6 +71,7 @@ p {
   font-size: 16px;
   background: linear-gradient(290deg, #7d6fad 51%, #a797de 100%);
   color: #f6f6f6;
+  box-shadow: 3px 3px 3px #484175;
 }
 .formContainer #btnBuscar:hover {
   transform: scale(1.05);
@@ -162,6 +164,7 @@ p {
   height: fit-content;
   justify-content: flex-end;
   background: linear-gradient(290deg, #7d6fad 51%, #a797de 100%);
+  box-shadow: 3px 3px 3px #484175;
 }
 .tabla tfoot td button:hover {
   transform: scale(1.1);
