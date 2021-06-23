@@ -210,6 +210,10 @@ p {
   color: #484175;
 }
 
+.imagen-og {
+  display: none;
+}
+
 @media only screen and (max-width: 679px) {
   .table-responsive {
     width: 100%;
