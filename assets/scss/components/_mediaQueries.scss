@@ -25,7 +25,11 @@
         font-size: 12px;
     }
 
-
+    tbody, td, tfoot, th, thead, tr {
+        border-color: transparent;
+        border-style: none;
+    }
+        
     #infoUtil {
         width: 80%;
     }
